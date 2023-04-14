@@ -3,7 +3,7 @@ pipeline{
     agent any
     
     
-        tages{
+        stages{
          
         stage('Git Checkout'){
             steps{
