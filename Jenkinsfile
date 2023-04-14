@@ -44,7 +44,7 @@ pipeline{
           }
             stage('Build Docker Image') {         
             steps{                
-	          sh '-s docker build -t arunprabhavathi456/springboot:1.1 .'           
+	          sh 'docker build -t arunprabhavathi456/springboot:1.1 .'           
                echo 'Build Image Completed'                
          }           
      }
