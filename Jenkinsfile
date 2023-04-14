@@ -44,8 +44,7 @@ pipeline{
           }
             stage('Build Docker Image') {         
             steps{  
-		    sh 'sudo usermode -a -G docker jenkins'      
-	          sh 'docker build -t arunprabhavathi456/springboot:1.1 .'           
+               sh 'docker build -t arunprabhavathi456/springboot:1.1 .'           
                echo 'Build Image Completed'                
          }           
      }
